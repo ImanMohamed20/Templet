@@ -1,0 +1,149 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Times New Roman", Georgia, Serif;
+}
+.nav{
+    width: 100%;
+    position: sticky;
+    top: 0;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.329);
+    background-color: white;
+    z-index: 1;
+    padding: 30px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 30px;
+    font-size: large;
+    letter-spacing: 4px;
+}
+.nav a:hover{
+    background-color: gray;
+}
+.nav .sec {
+    float:right;
+
+}
+.main{
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+.main h1{
+   color: rgba(114, 114, 118, 0.945);
+   position: absolute;
+   bottom: 30px;
+   left: 30px;
+   font-weight: lighter;
+   font-size: 45px;
+}
+.main img{
+    width: 100%;
+}
+#about{
+    display: flex;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+#about img{
+    width: 500px;
+    opacity: 0.7;
+    margin-left:30px ;
+   
+}
+#about h2{
+    text-align: center;
+    padding: 50px;
+    font-size: 45px;
+    font-weight: lighter;
+}
+
+#about p{
+    padding: 20px;
+}
+.span{
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 4px;
+}
+#about .par{
+    font-size: 18px;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+#about mark{
+    background-color: #e7e5e1;
+    padding: 2px;
+}
+#about .par2{
+    font-size: 18px;
+    margin-right: 80px;
+    margin-left: 80px;
+    color:#a09c9c;
+}
+hr{
+  opacity: 0.2;
+}
+ #menu{
+    margin-left: 50px;
+    padding-top: 200px;
+   padding-bottom:200px;
+    margin-right: 50px;
+    
+ }
+ #menu img{
+    opacity: 0.7;
+    float: right;
+}
+#menu h3{
+    text-align: center;
+    font-size: 45px;
+    font-weight: lighter;
+    letter-spacing: 5px;
+}
+#menu .our{
+    font-size: 20px;
+    padding: 10px;
+    letter-spacing: 5px;
+}
+.menu2{
+    padding: 40px;
+}
+#menu .our2{
+    color: #a09c9c;
+}
+#contact{
+    margin: 80px;
+}
+#contact h4{
+    text-align: left;
+    font-size: 40px;
+    font-weight: lighter;
+    padding: 30px;
+}
+ #contact input{
+    display: block;
+    width: 100%;
+    margin: 20px;
+    border: none;
+    font-size: large;
+    border-bottom: 1px solid #ccc;
+    padding: 8px;
+}
+#contact button{
+    display: block;
+    width: 20%;
+    margin: 20px;
+    border: none;
+    font-size: large;
+    background-color:  #ccc;
+    padding: 8px;
+    text-transform: uppercase;
+}
